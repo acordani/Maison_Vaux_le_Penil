@@ -3,13 +3,75 @@ title: Le Wagon - Middleman
 ---
 
 <div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
-  </div>
+	<div class="top-image">
+		<%= image_tag "logo.png", style: 'width:200px; padding-top:30px;' %>
+    	<div class="text-top">
+	    	<h1>VAUX LE PENIL</h1>
+	    	<h2> Maison 7 pièces
+	    	</h2>
+	    </div>
+	    <div class="text-middle">
+	    	<p>1720m2 de terrain</p>
+	    	<p>4 chambres</p>
+	    	<p>2 salles de bains</p>
+	    	<p>Sous-sol total</p>
+	    </div>
+	</div>
+
 </div>
+<div id="informations">
+	<div class="container">
+
+		<div class="row">
+			<div class=" col-md-8">
+
+				<h4>UNE MAISON AU CALME & PROCHE DU CENTRE VILLE</h4>
+				<div class="mt-30"></div>
+				<p> <b>Vaux le Penil</b>, en bordure de seine, sur un terrain de <b>1700m2</b>, une maison composée:
+				</p>
+				<p class="souligne">Au Rez-de-Chaussée:</p>
+				<p>
+				 Entrée, Séjour double avec cheminée, cuisine récente aménagée, 1 espace privatif composé d'une chambre, d'une salle d'eau et de toilettes.
+				</p>
+				<p>Grande véranda sur l'arrière donnant sur une terrasse</p>
+				<p class="souligne"> A l'étage:</p>
+				<p> 3 chambres, salle de bains avec toilettes
+				</p>
+				<p>Nombreux rangements</p>
+			</div>
+			<div class="col-md-4">
+				<div class="mt-30"></div>
+				<div class="card-alex">
+					<div class="col-md-6">
+						<%= image_tag "alex.jpg", style:"width:100px; height:auto;" %>
+					</div>
+					<div class="col-md-6">
+						<p>Alexandre Cordani</p>
+						<p>3G Immobilier</p>
+						<p>06 98 85 38 74</p>
+						<p>alcordani@gmail.com</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<h4>INFORMATIONS COMPLEMENTAIRES</h4>
+			<div class="mt-30"></div>
+			<div class="col-md-6">
+				<p>Prix</p>
+				<p>Surface habitable</p>
+				<p>Taxe Foncière</p>
+				<p>Nbre de chambres</p>
+				<p>Surface Séjour</p>
+			</div>
+			<div class="col-md-6">
+				<p> 409.500€</p>
+				<p>170m2</p>
+				<p>2000€</p>
+				<p>4</p>
+				<p>33 m2</p>
+			</div>
+			
+	</div>
+</div>
+<%= partial 'map' %>
