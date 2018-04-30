@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'puma'
 gem 'rake'
+gem 'rack-contrib'
 
 gem 'middleman', '~> 4.2'
 gem 'middleman-autoprefixer', '~> 2.7'
